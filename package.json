@@ -1,0 +1,12 @@
+{
+  "name": "options-simulator",
+  "version": "1.0.0",
+  "description": "Options Simulator",
+  "main": "server_new.js",
+  "scripts": {
+    "start": "node server_new.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

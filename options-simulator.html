@@ -161,7 +161,7 @@ canvas{display:block;width:100%;height:220px}
 </div>
 
 <script>
-const API = 'http://localhost:3000';
+const API = window.location.origin;
 const erf=x=>{const t=1/(1+0.3275911*Math.abs(x));const p=1-(0.254829592*t-0.284496736*t*t+1.421413741*t*t*t-1.453152027*t*t*t*t+1.061405429*t*t*t*t*t)*Math.exp(-x*x);return x<0?-p:p};
 const N=x=>0.5*(1+erf(x/Math.sqrt(2)));
 function bs(S,K,T,r,v,type){

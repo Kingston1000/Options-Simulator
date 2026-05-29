@@ -4,7 +4,7 @@ const url = require('url');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 function fetchUrl(targetUrl, extraHeaders = {}) {
   return new Promise((resolve, reject) => {
